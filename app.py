@@ -87,6 +87,13 @@ async def main():
 
         time.sleep(2)
 
+    # Enviar mensaje aunque no haya ofertas
+    if hay_ofertas:
+        mensaje_final = html_resultado
+    else:
+        mensaje_final = "✅ El bot se ejecutó correctamente, pero no se encontraron ofertas esta semana."
+
+
     if not hay_ofertas:
         await enviar_telegram("No hay ofertas interesantes esta vez 💤")
 
