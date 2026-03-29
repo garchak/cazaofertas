@@ -1,7 +1,12 @@
 [
   {
-    "nombre": "Farmina N&D Quinoa Feline Digestion Adulto 1.5kg",
+    "nombre": "Pienso N&D",
     "query": "Farmina N&D Quinoa Feline Digestion 1.5 kg precio",
-    "precio_max": 1
+    "precio_max": 28
+  }
+  {
+    "nombre": "Cat's Best",
+    "query": "Cat's Best arena gatos 20 l precio",
+    "precio_max": 18
   }
 ]
